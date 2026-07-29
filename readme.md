@@ -1,572 +1,1162 @@
-# JavaScript for Node.js Developers
+# 📚 فهرست مطالب دوره جامع JavaScript در Node.js
 
-### یادگیری جاوااسکریپت به سبک Node.js؛ از مفاهیم پایه تا ساخت پروژه‌های واقعی
+### از سطح صفر تا ورود به بازار کار
 
----
-
-## 📖 درباره این آموزش
-
-این آموزش برای افرادی نوشته شده است که می‌خواهند **Node.js را به صورت اصولی و حرفه‌ای یاد بگیرند**؛ نه فقط JavaScript خام.
-
-برخلاف اکثر آموزش‌های JavaScript که روی مرورگر (Browser) تمرکز دارند، این مستند تمام مفاهیم JavaScript را از دیدگاه **محیط Node.js** آموزش می‌دهد؛ یعنی دقیقاً همان چیزهایی که هنگام توسعه Backend، ساخت API، ابزارهای CLI، ربات‌ها، اتوماسیون، سرورها و پروژه‌های واقعی به آن نیاز خواهید داشت.
-
-در طول این آموزش علاوه بر یادگیری زبان JavaScript، با نحوه کار Runtime نود، ماژول‌ها، مدیریت فایل‌ها، برنامه‌نویسی ناهمگام، شبکه، طراحی پروژه، بهترین شیوه‌های کدنویسی و اکوسیستم Node.js نیز آشنا خواهید شد.
-
-این مستند فقط یک آموزش نیست؛ بلکه یک **مرجع کامل** برای مراجعه در طول مسیر برنامه‌نویسی Node.js است.
+#### ویژه افرادی که هیچ تجربه‌ای در برنامه‌نویسی ندارند
 
 ---
 
-# 🎯 اهداف این آموزش
+# بخش ۰ - قبل از شروع برنامه‌نویسی
 
-در پایان این آموزش شما قادر خواهید بود:
+## فصل 1 - این دوره برای چه کسانی است؟
 
-* درک کاملی از JavaScript مخصوص Node.js داشته باشید.
-* نحوه کار Runtime نود را بشناسید.
-* پروژه‌های Backend طراحی کنید.
-* با npm و Packageهای مختلف کار کنید.
-* REST API توسعه دهید.
-* فایل‌ها و پوشه‌ها را مدیریت کنید.
-* با پایگاه داده ارتباط برقرار کنید.
-* برنامه‌های Real-Time بسازید.
-* ربات‌های Discord و Telegram توسعه دهید.
-* ابزارهای CLI ایجاد کنید.
-* پروژه‌های Production Ready طراحی کنید.
-* برای ورود به بازار کار Node.js آماده شوید.
+* هدف دوره
+* مسیر یادگیری
+* پیش‌نیازها
+* چه چیزهایی یاد خواهید گرفت
+* چگونه از این مستند استفاده کنیم
 
 ---
 
-# 👥 این آموزش مناسب چه کسانی است؟
+## فصل 2 - برنامه‌نویسی چیست؟
 
-* افرادی که هیچ تجربه‌ای با Node.js ندارند.
-* برنامه‌نویسان Front-End که قصد ورود به Backend را دارند.
-* علاقه‌مندان به JavaScript.
-* دانشجویان رشته کامپیوتر.
-* افرادی که قصد یادگیری Express یا NestJS را دارند.
-* کسانی که می‌خواهند وارد بازار کار Backend شوند.
-* توسعه‌دهندگانی که قصد ساخت Bot یا Automation دارند.
+* کامپیوتر چگونه فکر می‌کند؟
+* برنامه چیست؟
+* الگوریتم چیست؟
+* فلوچارت چیست؟
+* ورودی، پردازش، خروجی
+* مفهوم منطق در برنامه‌نویسی
 
----
-
-# 📚 پیش‌نیازها
-
-برای مطالعه این آموزش فقط به موارد زیر نیاز دارید:
-
-* آشنایی ابتدایی با کامپیوتر
-* علاقه به برنامه‌نویسی
-* نصب Node.js (در فصل‌های ابتدایی انجام می‌دهیم)
-
-> هیچ دانشی از JavaScript یا Backend فرض نشده است.
+تمرین
 
 ---
 
-# 🧠 روش مطالعه
+## فصل 3 - آشنایی با JavaScript و Node.js
 
-تقریباً تمام فصل‌های این آموزش شامل بخش‌های زیر هستند:
-
-* 📖 توضیح مفاهیم
-* 💻 مثال‌های متعدد
-* ⚠️ اشتباهات رایج
-* 💡 نکات حرفه‌ای
-* 📝 تمرین
-* ✅ پاسخ تمرین‌ها
-* 🚀 پروژه کوچک
-* 🎯 چالش بیشتر
-
----
-
-# 🛣️ نقشه راه آموزش
-
-## بخش اول — آشنایی با Node.js
-
-### [فصل ۱ — Node.js چیست؟](./part%201/season%201.md)
-
-* JavaScript خارج از مرورگر
-* تاریخچه Node.js
-* چرا Node.js ساخته شد؟
+* JavaScript چیست؟
+* تفاوت JavaScript در مرورگر و Node.js
+* Node.js چیست؟
+* V8 Engine چیست؟
 * Runtime چیست؟
-* V8 Engine
-* معماری Node.js
-* Event Driven
-* Non-Blocking I/O
-* مزایا و معایب Node.js
-* Node.js چه کاربردهایی دارد؟
+* چرا Node.js ساخته شد؟
+* مزایا
+* معایب
+* چه پروژه‌هایی با Node.js ساخته می‌شوند؟
+* شرکت‌هایی که از Node.js استفاده می‌کنند
+
+تمرین
 
 ---
 
-### [فصل ۲ — نصب محیط توسعه](./part%201/season%202.md)
+# بخش ۱ - نصب و آماده‌سازی محیط
+
+## فصل 4 - نصب ابزارها
 
 * نصب Node.js
-* npm
-* npx
-* Corepack
-* pnpm
-* Yarn
-* VS Code
-* ترمینال
-* اولین اجرای Node
+* نصب VS Code
+* نصب Git
+* نصب npm
+* نصب pnpm
+* نصب Yarn
+* ساخت اولین پروژه
+* اجرای اولین برنامه
+
+تمرین
 
 ---
 
-### [فصل ۳ — اولین برنامه](./part%201/season%203.md)
+## فصل 5 - آشنایی با VS Code
+
+* نصب Extensionها
+* تنظیمات کاربردی
+* ترمینال
+* Debug
+* ساخت Workspace
+
+تمرین
+
+---
+
+## فصل 6 - Command Line
+
+* پوشه‌ها
+* فایل‌ها
+* دستورات مهم
+* مسیرها
+* متغیرهای محیطی
+* اجرای فایل‌ها
+
+تمرین
+
+---
+
+# بخش ۲ - شروع برنامه‌نویسی با JavaScript
+
+## فصل 7 - اولین برنامه
 
 * Hello World
-* اجرای فایل‌ها
-* REPL
-* ساخت اولین پروژه
-* package.json
+* console
+* Comment
+* اجرای فایل
+
+تمرین
 
 ---
 
-# بخش دوم — JavaScript مخصوص Node.js
-
-### فصل ۴ — متغیرها
+## فصل 8 - متغیرها
 
 * let
 * const
 * var
-* Scope
-* Hoisting
+* قوانین نام‌گذاری
+* Scope اولیه
+
+تمرین‌های زیاد
 
 ---
 
-### فصل ۵ — انواع داده
+## فصل 9 - انواع داده
 
-* Primitive
-* Reference
 * Number
-* BigInt
 * String
 * Boolean
-* Undefined
 * Null
+* Undefined
+* BigInt
 * Symbol
 
+تمرین
+
+---
+
+## فصل 10 - عملگرها
+
+* ریاضی
+* مقایسه
+* منطقی
+* Assignment
+* Ternary
+* Nullish
+* Optional Chaining
+
+تمرین
+
+---
+
+## فصل 11 - تبدیل نوع داده
+
+* Implicit
+* Explicit
+* Number()
+* String()
+* Boolean()
+
+تمرین
+
+---
+
+## فصل 12 - Template String
+
+تمرین
+
+---
+
+## فصل 13 - ورودی و خروجی در Node.js
+
+* readline
+* process.stdin
+* process.stdout
+
+تمرین
+
+---
+
+# بخش ۳ - تصمیم‌گیری
+
+## فصل 14 - شرط‌ها
+
+* if
+* else
+* else if
+* Nested
+* Switch
+
+تمرین
+
+---
+
+## فصل 15 - حلقه‌ها
+
+* for
+* while
+* do while
+* for of
+* for in
+
+تمرین
+
+---
+
+## فصل 16 - کنترل حلقه
+
+* break
+* continue
+* label
+
+تمرین
+
+---
+
+# بخش ۴ - توابع
+
+## فصل 17 - Function
+
+* Declaration
+* Expression
+* Arrow Function
+* Parameters
+* Return
+
+تمرین
+
+---
+
+## فصل 18 - Scope
+
+* Global
+* Local
+* Block Scope
+* Lexical Scope
+
+تمرین
+
+---
+
+## فصل 19 - Hoisting
+
+تمرین
+
+---
+
+## فصل 20 - Closure
+
+تمرین
+
+---
+
+## فصل 21 - Recursion
+
+تمرین
+
+---
+
+# بخش ۵ - ساختمان داده‌ها
+
+## فصل 22 - Array
+
+* ایجاد
+* دسترسی
+* اضافه کردن
+* حذف
+* جستجو
+
+تمرین
+
+---
+
+## فصل 23 - متدهای Array
+
+* map
+* filter
+* reduce
+* find
+* some
+* every
+* sort
+* splice
+* slice
+* concat
+* includes
+* indexOf
+* flat
+* flatMap
+* join
+* reverse
+* fill
+* at
+* entries
+* keys
+* values
+
+تمرین بسیار زیاد
+
+---
+
+## فصل 24 - String
+
+تمام متدهای مهم String
+
+تمرین
+
+---
+
+## فصل 25 - Object
+
+* ایجاد
+* حذف
+* ویرایش
+* Object Methods
+* Destructuring
+* Spread
+
+تمرین
+
+---
+
+## فصل 26 - Set
+
+تمرین
+
+---
+
+## فصل 27 - Map
+
+تمرین
+
+---
+
+## فصل 28 - Date
+
+تمرین
+
+---
+
+## فصل 29 - Math
+
+تمرین
+
+---
+
+## فصل 30 - RegExp
+
+از مقدماتی تا کاربردی
+
+تمرین
+
+---
+
+# بخش ۶ - مفاهیم پیشرفته JavaScript
+
+## فصل 31 - Execution Context
+
+---
+
+## فصل 32 - Call Stack
+
+---
+
+## فصل 33 - Memory
+
+---
+
+## فصل 34 - Garbage Collection
+
+---
+
+## فصل 35 - Event Loop
+
+---
+
+## فصل 36 - Callback
+
+---
+
+## فصل 37 - Promise
+
+---
+
+## فصل 38 - Async Await
+
+---
+
+## فصل 39 - Error Handling
+
+* try
+* catch
+* finally
+* throw
+
+تمرین
+
+---
+
+## فصل 40 - Module System
+
+* CommonJS
+* ES Modules
+
+تمرین
+
+---
+
+# بخش ۷ - برنامه‌نویسی شی‌گرا
+
+## فصل 41 - Object Oriented Programming
+
+---
+
+## فصل 42 - Prototype
+
+---
+
+## فصل 43 - Class
+
+---
+
+## فصل 44 - Constructor
+
 ---
 
-### فصل ۶ — عملگرها
+## فصل 45 - Inheritance
 
 ---
 
-### فصل ۷ — شرط‌ها
+## فصل 46 - Polymorphism
 
 ---
 
-### فصل ۸ — حلقه‌ها
+## فصل 47 - Encapsulation
 
 ---
 
-### فصل ۹ — توابع
+## فصل 48 - Abstraction
 
 ---
 
-### فصل ۱۰ — Arrow Functions
+## فصل 49 - this
 
 ---
 
-### فصل ۱۱ — Scope
+## فصل 50 - bind call apply
 
+تمرین‌های کامل
+
+---
+
+# بخش ۸ - Node.js Core
+
+## فصل 51 - معماری Node.js
+
+---
+
+## فصل 52 - Event Driven
+
+---
+
+## فصل 53 - Single Thread
+
+---
+
+## فصل 54 - Libuv
+
+---
+
+## فصل 55 - EventEmitter
+
+تمرین
+
+---
+
+## فصل 56 - Process
+
+تمرین
+
+---
+
+## فصل 57 - Buffer
+
+تمرین
+
+---
+
+## فصل 58 - Streams
+
+* Readable
+* Writable
+* Duplex
+* Transform
+
+پروژه
+
+---
+
+## فصل 59 - File System (fs)
+
+تمرین
+
+پروژه
+
+---
+
+## فصل 60 - Path
+
+---
+
+## فصل 61 - OS
+
+---
+
+## فصل 62 - URL
+
+---
+
+## فصل 63 - Crypto
+
+---
+
+## فصل 64 - Timers
+
+---
+
+## فصل 65 - Child Process
+
 ---
 
-### فصل ۱۲ — Closure
+## فصل 66 - Worker Threads
 
 ---
+
+# بخش ۹ - Package Manager
 
-### فصل ۱۳ — Objects
+## فصل 67 - npm
 
 ---
 
-### فصل ۱۴ — Arrays
+## فصل 68 - package.json
 
 ---
 
-### فصل ۱۵ — String Methods
+## فصل 69 - package-lock
 
 ---
 
-### فصل ۱۶ — Array Methods
+## فصل 70 - Semantic Version
 
 ---
 
-### فصل ۱۷ — Destructuring
+## فصل 71 - نصب Package
 
 ---
 
-### فصل ۱۸ — Spread Operator
+## فصل 72 - ساخت Package
 
 ---
 
-### فصل ۱۹ — Rest Operator
+## فصل 73 - انتشار Package در npm
 
+پروژه
+
 ---
+
+# بخش ۱۰ - شبکه
 
-### فصل ۲۰ — Template Literals
+## فصل 74 - HTTP
 
 ---
 
-### فصل ۲۱ — Classes
+## فصل 75 - HTTPS
 
 ---
 
-### فصل ۲۲ — Error Handling
+## فصل 76 - DNS
 
 ---
 
-### فصل ۲۳ — Modern JavaScript Features
+## فصل 77 - TCP/IP
 
 ---
 
-# بخش سوم — JavaScript در محیط Node.js
+## فصل 78 - Socket
+
+---
 
-### فصل ۲۴ — Global Object
+## فصل 79 - WebSocket
 
 ---
 
-### فصل ۲۵ — Process
+## فصل 80 - REST API
 
 ---
 
-### فصل ۲۶ — Timers
+## فصل 81 - GraphQL
 
 ---
 
-### فصل ۲۷ — Console
+# بخش ۱۱ - ساخت سرور
 
+## فصل 82 - ساخت Web Server
+
 ---
 
-### فصل ۲۸ — Buffer
+## فصل 83 - Routing
 
 ---
 
-### فصل ۲۹ — Events
+## فصل 84 - Middleware
 
 ---
 
-### فصل ۳۰ — EventEmitter
+## فصل 85 - MVC
 
 ---
 
-### فصل ۳۱ — Streams
+## فصل 86 - Validation
 
 ---
 
-### فصل ۳۲ — File System (fs)
+## فصل 87 - Authentication
 
 ---
 
-### فصل ۳۳ — Path
+## فصل 88 - Authorization
 
 ---
 
-### فصل ۳۴ — OS Module
+## فصل 89 - JWT
 
 ---
 
-### فصل ۳۵ — Crypto
+## فصل 90 - Cookie
 
 ---
 
-### فصل ۳۶ — URL
+## فصل 91 - Session
 
 ---
 
-### فصل ۳۷ — DNS
+## فصل 92 - Upload File
 
 ---
 
-### فصل ۳۸ — Child Process
+## فصل 93 - Logging
 
 ---
 
-### فصل ۳۹ — Worker Threads
+## فصل 94 - Error Handling حرفه‌ای
 
 ---
+
+# بخش ۱۲ - پایگاه داده
 
-# بخش چهارم — ماژول‌ها
+## فصل 95 - Database
 
-### فصل ۴۰ — CommonJS
+---
 
+## فصل 96 - SQL
+
 ---
 
-### فصل ۴۱ — ES Modules
+## فصل 97 - PostgreSQL
 
 ---
 
-### فصل ۴۲ — Import & Export
+## فصل 98 - MongoDB
 
 ---
+
+## فصل 99 - ORM و ODM
 
-### فصل ۴۳ — ساخت Package
+* Prisma
+* Drizzle
+* Mongoose
 
 ---
 
-### فصل ۴۴ — npm
+## فصل 100 - Migration
 
 ---
 
-### فصل ۴۵ — Semantic Versioning
+## فصل 101 - Transaction
 
 ---
 
-# بخش پنجم — برنامه‌نویسی ناهمگام
+# بخش ۱۳ - تست
 
-### فصل ۴۶ — Callback
+## فصل 102 - Testing چیست؟
 
 ---
 
-### فصل ۴۷ — Promise
+## فصل 103 - Unit Test
 
 ---
 
-### فصل ۴۸ — Async / Await
+## فصل 104 - Integration Test
 
 ---
 
-### فصل ۴۹ — Event Loop
+## فصل 105 - Jest
 
 ---
 
-### فصل ۵۰ — Microtask Queue
+## فصل 106 - Mock
 
 ---
 
-### فصل ۵۱ — Error Handling در Async
+## فصل 107 - Coverage
 
 ---
 
-# بخش ششم — شبکه
+# بخش ۱۴ - امنیت
 
-### فصل ۵۲ — HTTP
+## فصل 108 - امنیت در Node.js
 
 ---
 
-### فصل ۵۳ — HTTPS
+## فصل 109 - Hash Password
 
 ---
 
-### فصل ۵۴ — REST API
+## فصل 110 - Encryption
 
 ---
 
-### فصل ۵۵ — WebSocket
+## فصل 111 - Helmet
 
 ---
 
-### فصل ۵۶ — Socket.io
+## فصل 112 - Rate Limit
 
 ---
 
-### فصل ۵۷ — Fetch API در Node.js
+## فصل 113 - CORS
 
 ---
 
-# بخش هفتم — پایگاه داده
+## فصل 114 - XSS
 
-### فصل ۵۸ — Database چیست؟
+---
+
+## فصل 115 - CSRF
+
+---
+
+## فصل 116 - SQL Injection
 
 ---
 
-### فصل ۵۹ — MongoDB
+## فصل 117 - NoSQL Injection
 
 ---
 
-### فصل ۶۰ — PostgreSQL
+## فصل 118 - Environment Variables
 
 ---
 
-### فصل ۶۱ — MySQL
+# بخش ۱۵ - Performance
 
+## فصل 119 - Performance Optimization
+
+---
+
+## فصل 120 - Cache
+
 ---
 
-### فصل ۶۲ — Redis
+## فصل 121 - Redis
 
 ---
 
-### فصل ۶۳ — ORM و ODM
+## فصل 122 - Compression
 
 ---
+
+## فصل 123 - Cluster
 
-# بخش هشتم — فریمورک‌های Node.js
+---
 
-### فصل ۶۴ — Express.js
+## فصل 124 - Load Balancing
 
 ---
 
-### فصل ۶۵ — Fastify
+## فصل 125 - Profiling
 
 ---
+
+# بخش ۱۶ - ابزارهای توسعه
 
-### فصل ۶۶ — NestJS
+## فصل 126 - Git
 
 ---
 
-### فصل ۶۷ — Hono
+## فصل 127 - GitHub
 
 ---
 
-### فصل ۶۸ — Koa
+## فصل 128 - ESLint
 
 ---
 
-### فصل ۶۹ — AdonisJS
+## فصل 129 - Prettier
 
 ---
 
-# بخش نهم — امنیت
+## فصل 130 - Husky
+
+---
 
-### فصل ۷۰ — Authentication
+## فصل 131 - Nodemon
 
 ---
 
-### فصل ۷۱ — Authorization
+## فصل 132 - Docker
 
 ---
 
-### فصل ۷۲ — JWT
+## فصل 133 - Docker Compose
 
 ---
 
-### فصل ۷۳ — OAuth
+## فصل 134 - CI/CD
 
 ---
 
-### فصل ۷۴ — Password Hashing
+# بخش ۱۷ - فریمورک‌های Node.js
 
+## فصل 135 - Express.js
+
+پروژه کامل
+
 ---
 
-### فصل ۷۵ — امنیت API
+## فصل 136 - Fastify
 
+پروژه
+
 ---
+
+## فصل 137 - NestJS
+
+پروژه
 
-# بخش دهم — تست
+---
 
-### فصل ۷۶ — Unit Test
+## فصل 138 - Hono
 
 ---
 
-### فصل ۷۷ — Integration Test
+## فصل 139 - Koa
 
 ---
 
-### فصل ۷۸ — Jest
+## فصل 140 - AdonisJS
 
 ---
+
+## فصل 141 - Socket.IO
 
-### فصل ۷۹ — Supertest
+پروژه
 
 ---
+
+# بخش ۱۸ - پروژه‌های آموزشی
+
+## پروژه 1
+
+ماشین حساب
+
+## پروژه 2
+
+مبدل واحد
+
+## پروژه 3
+
+حدس عدد
+
+## پروژه 4
+
+Password Generator
+
+## پروژه 5
+
+Todo CLI
+
+## پروژه 6
+
+دفترچه مخاطبین
+
+## پروژه 7
+
+مدیریت فایل‌ها
+
+## پروژه 8
+
+سیستم لاگ
+
+## پروژه 9
+
+وب سرور ساده
+
+## پروژه 10
+
+REST API کاربران
+
+## پروژه 11
+
+سیستم احراز هویت
+
+## پروژه 12
+
+آپلود فایل
+
+## پروژه 13
 
-# بخش یازدهم — طراحی پروژه
+چت آنلاین
 
-### فصل ۸۰ — معماری پروژه
+## پروژه 14
 
+وبلاگ
+
+## پروژه 15
+
+فروشگاه کوچک
+
+## پروژه 16
+
+URL Shortener
+
+## پروژه 17
+
+سیستم ارسال ایمیل
+
+## پروژه 18
+
+Task Manager
+
+## پروژه 19
+
+سیستم رزرو
+
+## پروژه 20
+
+API آب و هوا
+
+## پروژه 21
+
+سیستم مدیریت کتابخانه
+
+## پروژه 22
+
+سیستم مدیریت انبار
+
+## پروژه 23
+
+سیستم مالی شخصی
+
+## پروژه 24
+
+لینک‌کوتاه‌کن حرفه‌ای
+
+## پروژه 25
+
+سیستم مدیریت فایل ابری
+
 ---
 
-### فصل ۸۱ — ساختار پوشه‌ها
+# بخش ۱۹ - پروژه‌های بزرگ
 
+* فروشگاه اینترنتی
+* سیستم مدیریت کاربران
+* شبکه اجتماعی
+* پیام‌رسان
+* سیستم مدیریت آموزش (LMS)
+* سیستم نوبت‌دهی
+* سیستم تیکت
+* سیستم پرداخت
+* سیستم وبلاگ حرفه‌ای
+* سیستم مدیریت محتوا (CMS)
+
 ---
+
+# بخش ۲۰ - TypeScript
 
-### فصل ۸۲ — Clean Code
+* چرا TypeScript؟
+* نصب
+* انواع داده
+* Interface
+* Type Alias
+* Generic
+* Utility Types
+* Decorator
+* پروژه عملی
 
 ---
 
-### فصل ۸۳ — Design Patterns
+# بخش ۲۱ - معماری نرم‌افزار
 
+* Clean Code
+* SOLID
+* DRY
+* KISS
+* YAGNI
+* Design Pattern
+* Repository Pattern
+* Service Pattern
+* Dependency Injection
+* Clean Architecture
+* Hexagonal Architecture
+* Domain Driven Design (DDD)
+
 ---
+
+# بخش ۲۲ - استقرار پروژه
+
+* Linux
+* Ubuntu Server
+* SSH
+* Nginx
+* PM2
+* Reverse Proxy
+* SSL
+* Domain
+* Deploy
+* مانیتورینگ
+* Logging
+* Backup
 
-### فصل ۸۴ — Logging
+پروژه کامل Deployment
 
 ---
 
-### فصل ۸۵ — Configuration
+# بخش ۲۳ - مسیر ورود به بازار کار
 
+## رزومه برنامه‌نویس Node.js
+
+## ساخت GitHub حرفه‌ای
+
+## ساخت Portfolio
+
+## شرکت در پروژه‌های Open Source
+
+## آمادگی مصاحبه
+
+## سوالات رایج مصاحبه Node.js
+
+## Roadmap یادگیری بعد از Node.js
+
 ---
 
-### فصل ۸۶ — Environment Variables
+# بخش ۲۴ - اکوسیستم Node.js
 
+## مهم‌ترین کتابخانه‌ها
+
+* Axios
+* Zod
+* Joi
+* dotenv
+* bcrypt
+* jsonwebtoken
+* Prisma
+* Drizzle
+* Mongoose
+* Winston
+* Pino
+* BullMQ
+* Agenda
+* node-cron
+* Commander
+* Inquirer
+* Sharp
+* Nodemailer
+* Multer
+* Passport
+* Socket.IO
+
 ---
 
-# بخش دوازدهم — پروژه‌های آموزشی
+## مهم‌ترین فریمورک‌ها
 
-## پروژه‌های مقدماتی
+* Express.js
+* Fastify
+* NestJS
+* Hono
+* Koa
+* AdonisJS
 
-* ماشین حساب CLI
-* مدیریت یادداشت‌ها
-* مدیریت فایل‌ها
-* تولید رمز عبور
-* تبدیل واحد
-* دانلود فایل
-* QR Code Generator
-* Weather CLI
-* JSON Database
+---
 
-## پروژه‌های متوسط
+## چه پروژه‌هایی با Node.js می‌توان ساخت؟
 
-* Blog API
-* Todo API
-* Authentication API
-* File Upload API
-* URL Shortener
+* REST API
+* GraphQL API
+* پنل مدیریت
+* فروشگاه اینترنتی
+* شبکه اجتماعی
+* پیام‌رسان
+* چت آنلاین
+* سیستم تیکت
+* سیستم حسابداری
+* سیستم CRM
+* ERP
+* سیستم مدیریت محتوا
+* سیستم رزرو
+* سامانه‌های آموزشی
+* سرویس‌های مالی
+* ربات تلگرام
+* ربات دیسکورد
+* ربات واتساپ
+* ربات اینستاگرام
+* سیستم‌های Real-Time
+* Game Server
+* Microservices
+* SaaS
+* Backend اپلیکیشن‌های موبایل
+* Backend بازی‌ها
+* API هوش مصنوعی
+* Gateway برای سرویس‌های AI
+* سیستم‌های Queue و Job Processing
+* ابزارهای CLI
+* ابزارهای DevOps
 * Web Scraper
-* Chat Server
-* Email Sender
-* Cron Scheduler
-
-## پروژه‌های پیشرفته
-
-* Discord Bot
-* Telegram Bot
-* CMS Backend
-* Real-Time Chat
-* Authentication Server
-* Payment API
-* File Storage Service
-* REST API Production
-* URL Monitoring Service
+* Automation
+* IoT Server
+* Streaming Server
+* Video Processing
+* Image Processing
 
 ---
 
-# بخش سیزدهم — ورود به بازار کار
+# ضمیمه‌ها
 
-### فصل ۸۷ — مسیر یادگیری Node.js
+## A - Cheat Sheet کامل JavaScript
 
-### فصل ۸۸ — مهارت‌های مورد نیاز بازار
+## B - Cheat Sheet کامل Node.js
 
-### فصل ۸۹ — فریمورک مناسب برای هر پروژه
+## C - Cheat Sheet npm
 
-### فصل ۹۰ — ساخت رزومه Backend
+## D - خطاهای رایج JavaScript
 
-### فصل ۹۱ — آمادگی مصاحبه‌های فنی
+## E - خطاهای رایج Node.js
 
-### فصل ۹۲ — آینده شغلی Node.js
+## F - بهترین روش‌های کدنویسی
 
-### فصل ۹۳ — درآمد برنامه‌نویسان Node.js
+## G - اصطلاحات برنامه‌نویسی
 
-### فصل ۹۴ — پروژه‌هایی که با Node.js ساخته می‌شوند
+## H - واژه‌نامه فارسی ↔ انگلیسی
 
-### فصل ۹۵ — شرکت‌های بزرگ استفاده‌کننده از Node.js
+## I - منابع یادگیری
 
-### فصل ۹۶ — نقشه راه تبدیل شدن به Senior Node.js Developer
+## J - کتاب‌های پیشنهادی
 
----
+## K - کانال‌ها و وب‌سایت‌های مفید
 
-# 📦 ضمیمه‌ها
+## L - سوالات متداول (FAQ)
 
-* واژه‌نامه اصطلاحات Node.js
-* Cheat Sheet JavaScript
-* Cheat Sheet Node.js
-* Cheat Sheet npm
-* Cheat Sheet Git
-* Cheat Sheet Terminal
-* سوالات متداول
-* منابع پیشنهادی
-* کتاب‌های پیشنهادی
-* کانال‌ها و وب‌سایت‌های آموزشی
-* چالش‌های تکمیلی
-* پروژه‌های پیشنهادی برای تمرین
-* به‌روزرسانی‌های آینده این مستند
+## M - بیش از ۵۰۰ تمرین طبقه‌بندی‌شده همراه با پاسخ تشریحی
 
----
+## N - بیش از ۱۰۰ چالش برنامه‌نویسی همراه با راه‌حل
 
-> **هدف این مستند، آموزش صرفِ JavaScript نیست؛ بلکه آموزش JavaScript با ذهنیت یک توسعه‌دهنده Node.js است.** در پایان این مسیر، تنها با سینتکس زبان آشنا نخواهید بود، بلکه درک خواهید کرد که چگونه از JavaScript برای طراحی، توسعه و استقرار نرم‌افزارهای واقعی در سمت سرور استفاده کنید. این ساختار به‌صورت مرحله‌به‌مرحله از مباحث پایه تا موضوعات پیشرفته پیش می‌رود تا بتواند هم برای مبتدیان و هم به‌عنوان یک مرجع کاربردی برای توسعه‌دهندگان باتجربه مفید باشد. ([docs.github.com][1])
+## O - بیش از ۳۰ مینی‌پروژه آموزشی
 
-[1]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes?ref=miguelarios.com&utm_source=chatgpt.com "About the repository README file - GitHub Docs"
+## P - بیش از ۱۰ پروژه End-to-End نزدیک به پروژه‌های واقعی
+
+## Q - چک‌لیست تبدیل شدن به یک Backend Developer حرفه‌ای
