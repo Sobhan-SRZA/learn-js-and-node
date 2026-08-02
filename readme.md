@@ -359,7 +359,7 @@
 
 ---
 
-## فصل 34 - Garbage Collection
+## [فصل 34 - Garbage Collection](./part%206/6.4.md)
 
 ---
 
