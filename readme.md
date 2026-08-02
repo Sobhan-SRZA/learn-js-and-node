@@ -390,7 +390,7 @@
 
 ---
 
-## فصل 40 - Module System
+## [فصل 40 - Module System](./part%206/6.10.md)
 
 * CommonJS
 * ES Modules
