@@ -345,9 +345,9 @@
 
 ---
 
-# بخش ۶ - مفاهیم پیشرفته JavaScript
+# [بخش ۶ - مفاهیم پیشرفته JavaScript](./part%206/)
 
-## فصل 31 - Execution Context
+## [فصل 31 - Execution Context](./part%206/6.1.md)
 
 ---
 
