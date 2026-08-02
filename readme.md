@@ -399,9 +399,9 @@
 
 ---
 
-# بخش ۷ - برنامه‌نویسی شی‌گرا
+# [بخش ۷ - برنامه‌نویسی شی‌گرا](./part%207/)
 
-## فصل 41 - Object Oriented Programming
+## [فصل 41 - Object Oriented Programming](./part%207/7.1.md)
 
 ---
 
