@@ -375,7 +375,7 @@
 
 ---
 
-## فصل 38 - Async Await
+## [فصل 38 - Async Await](./part%206/6.8.md)
 
 ---
 
