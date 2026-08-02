@@ -379,7 +379,7 @@
 
 ---
 
-## فصل 39 - Error Handling
+## [فصل 39 - Error Handling](./part%206/6.9.md)
 
 * try
 * catch
