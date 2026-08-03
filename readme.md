@@ -413,7 +413,7 @@
 
 ---
 
-## فصل 44 - Constructor
+## [فصل 44 - Constructor](./part%207/7.4.md)
 
 ---
 
