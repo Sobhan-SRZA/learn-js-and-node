@@ -425,7 +425,7 @@
 
 ---
 
-## فصل 47 - Encapsulation
+## [فصل 47 - Encapsulation](./part%207/7.7.md)
 
 ---
 
