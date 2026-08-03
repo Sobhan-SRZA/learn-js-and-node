@@ -432,11 +432,11 @@
 ## [فصل 48 - Abstraction](./part%207/7.8.md)
 ---
 
-## فصل 49 - this
+## [فصل 49 - this](./part%207/7.9.md)
 
 ---
 
-## فصل 50 - bind call apply
+## [فصل 50 - bind call apply](./part%207/7.10.md)
 
 تمرین‌های کامل
 
