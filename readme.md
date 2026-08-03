@@ -417,7 +417,7 @@
 
 ---
 
-## فصل 45 - Inheritance
+## [فصل 45 - Inheritance](./part%207/7.5.md)
 
 ---
 
