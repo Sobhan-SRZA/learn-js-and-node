@@ -421,7 +421,7 @@
 
 ---
 
-## فصل 46 - Polymorphism
+## [فصل 46 - Polymorphism](./part%207/7.6.md)
 
 ---
 
