@@ -429,8 +429,7 @@
 
 ---
 
-## فصل 48 - Abstraction
-
+## [فصل 48 - Abstraction](./part%207/7.8.md)
 ---
 
 ## فصل 49 - this
