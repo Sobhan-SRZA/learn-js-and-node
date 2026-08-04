@@ -535,7 +535,7 @@
 
 ---
 
-## فصل 69 - package-lock
+## [فصل 69 - package-lock](./part%209/9.3.md)
 
 ---
 
