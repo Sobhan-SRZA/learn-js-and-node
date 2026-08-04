@@ -517,7 +517,7 @@
 
 ---
 
-## فصل 65 - Child Process
+## [فصل 65 - Child Process](./part%208/8.15.md)
 
 ---
 
