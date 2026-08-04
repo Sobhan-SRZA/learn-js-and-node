@@ -478,7 +478,7 @@
 
 ---
 
-## فصل 58 - Streams
+## [فصل 58 - Streams](./part%208/8.8.md)
 
 * Readable
 * Writable
