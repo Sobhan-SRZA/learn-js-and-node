@@ -452,7 +452,7 @@
 
 ---
 
-## فصل 53 - Single Thread
+## [فصل 53 - Single Thread](./part%208/8.3.md)
 
 ---
 
