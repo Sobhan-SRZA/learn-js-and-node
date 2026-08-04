@@ -448,7 +448,7 @@
 
 ---
 
-## فصل 52 - Event Driven
+## [فصل 52 - Event Driven](./part%208/8.2.md)
 
 ---
 
