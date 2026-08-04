@@ -442,9 +442,9 @@
 
 ---
 
-# بخش ۸ - Node.js Core
+# [بخش ۸ - Node.js Core](./part%208/)
 
-## فصل 51 - معماری Node.js
+## [فصل 51 - معماری Node.js](./part%208/8.1.md)
 
 ---
 
