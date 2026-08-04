@@ -460,7 +460,7 @@
 
 ---
 
-## فصل 55 - EventEmitter
+## [فصل 55 - EventEmitter](./part%208/8.5.md)
 
 تمرین
 
