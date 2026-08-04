@@ -525,9 +525,9 @@
 
 ---
 
-# بخش ۹ - Package Manager
+# [بخش ۹ - Package Manager](./part%209/)
 
-## فصل 67 - npm
+## [فصل 67 - npm](./part%209/9.1.md)
 
 ---
 
