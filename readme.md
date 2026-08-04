@@ -539,7 +539,7 @@
 
 ---
 
-## فصل 70 - Semantic Version
+## [فصل 70 - Semantic Version](./part%209/9.4.md)
 
 ---
 
