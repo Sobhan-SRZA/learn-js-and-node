@@ -633,7 +633,7 @@
 
 ---
 
-## فصل 92 - Upload File
+## [فصل 92 - Upload File](./part%2011/11.10.md)
 
 ---
 
