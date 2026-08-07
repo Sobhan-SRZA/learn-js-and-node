@@ -617,7 +617,7 @@
 
 ---
 
-## فصل 88 - Authorization
+## [فصل 88 - Authorization](./part%2011/11.7.md)
 
 ---
 
