@@ -663,7 +663,7 @@
 
 ---
 
-## فصل 99 - ORM و ODM
+## [فصل 99 - ORM و ODM](./part%2012/12.5.md)
 
 * Prisma
 * Drizzle
