@@ -1126,36 +1126,782 @@ API آب و هوا
 
 # ضمیمه‌ها
 
+ضمیمه‌های این مستند برای مرور سریع، رفع اشکال، تمرین بیشتر، پیدا کردن منابع و آماده شدن برای ورود به بازار کار طراحی شده‌اند.
+
+---
+
 ## A - Cheat Sheet کامل JavaScript
+
+[مشاهده Cheat Sheet کامل JavaScript](#)
+
+مرجع سریع برای:
+
+* Syntaxهای مهم JavaScript
+* Variables
+* Data Types
+* Operators
+* Conditions
+* Loops
+* Functions
+* Arrays
+* Objects
+* String
+* Set
+* Map
+* Date
+* RegExp
+* Destructuring
+* Spread و Rest
+* Optional Chaining
+* Nullish Coalescing
+* Promise
+* Async/Await
+* Modules
+* Class
+* Error Handling
+
+---
 
 ## B - Cheat Sheet کامل Node.js
 
+[مشاهده Cheat Sheet کامل Node.js](#)
+
+شامل:
+
+* Node.js APIs
+* `process`
+* `fs`
+* `path`
+* `os`
+* `url`
+* `crypto`
+* `http`
+* `https`
+* `events`
+* `stream`
+* `buffer`
+* `timers`
+* `child_process`
+* `worker_threads`
+* Environment Variables
+* CLI
+* Server
+* HTTP Request/Response
+
+---
+
 ## C - Cheat Sheet npm
+
+[مشاهده Cheat Sheet npm](#)
+
+شامل:
+
+* `npm init`
+* `npm install`
+* `npm uninstall`
+* `npm update`
+* `npm run`
+* `npm start`
+* `npm test`
+* `npm publish`
+* `npm version`
+* `npm audit`
+* `npm outdated`
+* Dependencies
+* Dev Dependencies
+* Scripts
+* Semantic Versioning
+* `package.json`
+* `package-lock.json`
+
+---
 
 ## D - خطاهای رایج JavaScript
 
+[مشاهده خطاهای رایج JavaScript](#)
+
+شامل:
+
+* `ReferenceError`
+* `TypeError`
+* `SyntaxError`
+* `RangeError`
+* `Cannot read properties of undefined`
+* اشتباهات مربوط به `this`
+* اشتباهات Scope
+* اشتباهات Closure
+* مشکلات Async/Await
+* مشکلات Promise
+* اشتباهات Array و Object
+* خطاهای Type Conversion
+
+---
+
 ## E - خطاهای رایج Node.js
+
+[مشاهده خطاهای رایج Node.js](#)
+
+شامل:
+
+* خطاهای Module
+* خطاهای File System
+* خطاهای Network
+* خطاهای HTTP
+* خطاهای Port
+* خطاهای Permission
+* خطاهای npm
+* خطاهای Environment Variable
+* خطاهای Database Connection
+* خطاهای Async
+* خطاهای Memory
+* خطاهای Process
+
+---
 
 ## F - بهترین روش‌های کدنویسی
 
+[مشاهده Best Practices](#)
+
+شامل:
+
+* Clean Code
+* Naming
+* ساختار فایل‌ها
+* مدیریت خطا
+* مدیریت Dependencyها
+* جلوگیری از Code Duplication
+* اصول خوانایی کد
+* Separation of Concerns
+* Single Responsibility
+* مدیریت Configuration
+* Logging
+* Validation
+* Security
+* Performance
+* Code Review
+
+---
+
 ## G - اصطلاحات برنامه‌نویسی
+
+[مشاهده اصطلاحات برنامه‌نویسی](#)
+
+مرجع اصطلاحات مهم:
+
+* Variable
+* Function
+* Object
+* Class
+* Method
+* Property
+* Parameter
+* Argument
+* Scope
+* Runtime
+* Compiler
+* Interpreter
+* Framework
+* Library
+* Package
+* Dependency
+* API
+* Backend
+* Frontend
+* Database
+* Server
+* Client
+* Protocol
+* Request
+* Response
+* Repository
+* Deployment
+
+---
 
 ## H - واژه‌نامه فارسی ↔ انگلیسی
 
+[مشاهده واژه‌نامه](#)
+
+مرجع فارسی و انگلیسی اصطلاحات مهم برنامه‌نویسی، JavaScript، Node.js، Backend، Database، Network، Security و DevOps.
+
+---
+
 ## I - منابع یادگیری
+
+[مشاهده منابع یادگیری](#)
+
+شامل منابع پیشنهادی برای ادامه مسیر:
+
+* مستندات رسمی Node.js
+* مستندات JavaScript
+* مستندات npm
+* مستندات Git
+* مستندات GitHub
+* مستندات PostgreSQL
+* مستندات MongoDB
+* منابع یادگیری Backend
+* منابع یادگیری TypeScript
+* منابع یادگیری معماری نرم‌افزار
+
+---
 
 ## J - کتاب‌های پیشنهادی
 
+[مشاهده کتاب‌های پیشنهادی](#)
+
+کتاب‌های پیشنهادی در زمینه:
+
+* JavaScript
+* Node.js
+* Backend
+* Database
+* Software Architecture
+* Clean Code
+* Design Patterns
+* Networking
+* Security
+
+---
+
 ## K - کانال‌ها و وب‌سایت‌های مفید
+
+[مشاهده کانال‌ها و وب‌سایت‌های مفید](#)
+
+معرفی منابع مفید برای:
+
+* آموزش
+* اخبار Node.js
+* JavaScript
+* Backend
+* Open Source
+* Community
+* مقالات فنی
+* مستندات
+* تمرین برنامه‌نویسی
+
+---
 
 ## L - سوالات متداول (FAQ)
 
+[مشاهده سوالات متداول](#)
+
+پاسخ به پرسش‌های رایج درباره:
+
+* JavaScript
+* Node.js
+* npm
+* Backend
+* Database
+* API
+* Authentication
+* Deployment
+* Performance
+* Security
+* بازار کار Node.js
+
+---
+
 ## M - بیش از ۵۰۰ تمرین طبقه‌بندی‌شده همراه با پاسخ تشریحی
+
+[مشاهده تمرین‌ها](#)
+
+تمرین‌ها از سطح:
+
+* بسیار ساده
+* مقدماتی
+* متوسط
+* پیشرفته
+* حرفه‌ای
+
+و در موضوعات:
+
+* JavaScript
+* Node.js
+* HTTP
+* API
+* Database
+* Authentication
+* Security
+* Testing
+* Performance
+
+---
 
 ## N - بیش از ۱۰۰ چالش برنامه‌نویسی همراه با راه‌حل
 
+[مشاهده چالش‌ها](#)
+
+چالش‌های مرحله‌ای برای تقویت:
+
+* تفکر منطقی
+* حل مسئله
+* الگوریتم
+* JavaScript
+* Async Programming
+* Node.js
+* Backend
+
+---
+
 ## O - بیش از ۳۰ مینی‌پروژه آموزشی
+
+[مشاهده مینی‌پروژه‌ها](#)
+
+پروژه‌های کوچک و مستقل برای تثبیت مطالب دوره.
+
+موضوعات پروژه‌ها شامل:
+
+* CLI
+* File System
+* API
+* Authentication
+* Database
+* HTTP
+* WebSocket
+* Automation
+* ابزارهای کاربردی
+
+---
 
 ## P - بیش از ۱۰ پروژه End-to-End نزدیک به پروژه‌های واقعی
 
+[مشاهده پروژه‌های End-to-End](#)
+
+پروژه‌هایی که چندین بخش دوره را به صورت همزمان استفاده می‌کنند:
+
+* Authentication
+* Authorization
+* Database
+* REST API
+* Validation
+* Logging
+* Testing
+* Security
+* Cache
+* Deployment
+
+---
+
 ## Q - چک‌لیست تبدیل شدن به یک Backend Developer حرفه‌ای
+
+[مشاهده چک‌لیست Backend Developer](#)
+
+چک‌لیست مرحله‌به‌مرحله برای بررسی مهارت‌های:
+
+* JavaScript
+* Node.js
+* HTTP
+* REST API
+* Database
+* SQL
+* NoSQL
+* Authentication
+* Security
+* Testing
+* Git
+* Docker
+* CI/CD
+* Deployment
+* Architecture
+* Performance
+
+---
+
+## R - Cheat Sheet HTTP و REST API
+
+[مشاهده Cheat Sheet HTTP و REST API](#)
+
+شامل:
+
+* HTTP Methods
+* Status Codes
+* Headers
+* Cookies
+* Content-Type
+* Request
+* Response
+* REST
+* CRUD
+* Pagination
+* Filtering
+* Sorting
+* Authentication
+* API Versioning
+
+---
+
+## S - Cheat Sheet Git و GitHub
+
+[مشاهده Cheat Sheet Git و GitHub](#)
+
+شامل:
+
+* `git init`
+* `git clone`
+* `git add`
+* `git commit`
+* `git push`
+* `git pull`
+* `git fetch`
+* Branch
+* Merge
+* Rebase
+* Conflict
+* Tag
+* Stash
+* Pull Request
+* Issue
+* GitHub Actions
+
+---
+
+## T - Cheat Sheet SQL و Database
+
+[مشاهده Cheat Sheet SQL و Database](#)
+
+شامل:
+
+* SELECT
+* INSERT
+* UPDATE
+* DELETE
+* WHERE
+* JOIN
+* GROUP BY
+* HAVING
+* ORDER BY
+* LIMIT
+* INDEX
+* Transaction
+* Foreign Key
+* Constraint
+* Migration
+* Query Optimization
+
+---
+
+## U - چک‌لیست امنیت Backend
+
+[مشاهده چک‌لیست امنیت](#)
+
+شامل بررسی:
+
+* Password Hashing
+* JWT
+* Cookie Security
+* CORS
+* CSRF
+* XSS
+* SQL Injection
+* NoSQL Injection
+* Rate Limiting
+* Input Validation
+* HTTP Headers
+* Environment Variables
+* Secret Management
+* Dependency Security
+
+---
+
+## V - چک‌لیست پروژه واقعی Node.js
+
+[مشاهده چک‌لیست پروژه واقعی](#)
+
+قبل از انتشار پروژه بررسی کنید:
+
+* ساختار پروژه
+* Environment Variables
+* Error Handling
+* Logging
+* Validation
+* Authentication
+* Authorization
+* Database
+* Testing
+* Security
+* Performance
+* Docker
+* CI/CD
+* Monitoring
+* Backup
+* Documentation
+
+---
+
+## W - چک‌لیست Deployment
+
+[مشاهده چک‌لیست Deployment](#)
+
+شامل:
+
+* Linux
+* Server
+* SSH
+* Domain
+* DNS
+* Nginx
+* SSL
+* Node.js
+* PM2
+* Environment Variables
+* Database
+* Reverse Proxy
+* Firewall
+* Logging
+* Monitoring
+* Backup
+
+---
+
+## X - سوالات مصاحبه JavaScript و Node.js
+
+[مشاهده سوالات مصاحبه](#)
+
+شامل سوالات:
+
+* JavaScript
+* Node.js
+* Async/Await
+* Promise
+* Event Loop
+* HTTP
+* REST
+* Database
+* SQL
+* MongoDB
+* Security
+* Performance
+* Testing
+* Architecture
+
+همراه با پاسخ و توضیح مفهومی.
+
+---
+
+## Y - مسیرهای تخصصی بعد از Node.js
+
+[مشاهده مسیرهای تخصصی](#)
+
+مسیرهای پیشنهادی برای ادامه یادگیری:
+
+* Backend Developer
+* Full Stack Developer
+* API Developer
+* Microservices Developer
+* Real-Time Developer
+* DevOps
+* Cloud
+* Security
+* Software Architecture
+* AI Backend
+* SaaS Development
+
+---
+
+## Z - راهنمای مشارکت در Open Source
+
+[مشاهده راهنمای Open Source](#)
+
+شامل:
+
+* Open Source چیست؟
+* پیدا کردن پروژه مناسب
+* خواندن Repository
+* Issue چیست؟
+* Pull Request چیست؟
+* Fork
+* Branch
+* Commit
+* Code Review
+* مشارکت در پروژه‌های Node.js
+* ساخت سابقه Open Source
+
+---
+
+# درباره این مستند
+
+[مشاهده مخزن GitHub این مستند](https://github.com/Sobhan-SRZA/learn-js-and-node)
+
+این مستند با هدف ایجاد یک مسیر آموزشی جامع برای یادگیری **JavaScript در محیط Node.js** و ورود مرحله‌به‌مرحله به دنیای **Backend Development** نوشته شده است.
+
+این دوره برای افرادی طراحی شده که ممکن است هیچ تجربه قبلی در برنامه‌نویسی نداشته باشند؛ بنابراین مسیر آموزش از مفاهیم پایه برنامه‌نویسی شروع می‌شود و به تدریج به JavaScript، Node.js، Backend، Database، Security، Testing، Performance، معماری نرم‌افزار، Deployment و پروژه‌های واقعی می‌رسد.
+
+## نویسنده
+
+این مستند توسط **Sobhan** طراحی و نوشته شده است.
+
+ساختار آموزشی، انتخاب موضوعات، مسیر یادگیری، پروژه‌ها، تمرین‌ها و محتوای این Repository با هدف ایجاد یک مرجع جامع و قابل استفاده برای یادگیری Node.js شکل گرفته است.
+
+---
+
+## نقش هوش مصنوعی در تهیه این مستند
+
+در فرایند تهیه این مستند از **ChatGPT** به عنوان یک دستیار آموزشی و فنی استفاده شده است.
+
+از ChatGPT برای کارهایی مانند:
+
+* طراحی و بررسی ساختار فصل‌ها
+* پیشنهاد موضوعات تکمیلی
+* توضیح مفاهیم
+* تولید مثال‌های آموزشی
+* طراحی تمرین
+* ارائه پاسخ تشریحی تمرین‌ها
+* پیشنهاد مینی‌پروژه
+* بررسی مسیر یادگیری
+* ساده‌سازی مفاهیم پیچیده
+* پیدا کردن مواردی که ممکن است از قلم افتاده باشند
+* کمک به سازمان‌دهی مطالب
+
+استفاده شده است.
+
+با این حال، این مستند صرفاً خروجی خودکار یک ابزار هوش مصنوعی نیست؛ بلکه یک پروژه آموزشی است که ساختار و مسیر آن توسط نویسنده طراحی شده و محتوای آن با هدف ایجاد یک دوره منسجم و قابل استفاده برای یادگیری Node.js تنظیم می‌شود.
+
+---
+
+## هدف این مستند
+
+هدف اصلی این پروژه این است که خواننده بتواند:
+
+```text
+Programming
+     ↓
+JavaScript
+     ↓
+Advanced JavaScript
+     ↓
+Node.js
+     ↓
+HTTP / Network
+     ↓
+Backend
+     ↓
+Database
+     ↓
+API
+     ↓
+Authentication
+     ↓
+Security
+     ↓
+Testing
+     ↓
+Performance
+     ↓
+Architecture
+     ↓
+Deployment
+     ↓
+Real-World Projects
+     ↓
+Job Ready
+```
+
+را به صورت مرحله‌به‌مرحله یاد بگیرد.
+
+هدف این نیست که فقط Syntaxهای JavaScript یا APIهای Node.js حفظ شوند؛ بلکه تلاش می‌شود خواننده **نحوه فکر کردن و ساختن نرم‌افزار Backend** را نیز یاد بگیرد.
+
+---
+
+## این مستند برای چه کسانی است؟
+
+این مستند مناسب:
+
+* افراد کاملاً مبتدی
+* افرادی که برنامه‌نویسی بلد نیستند
+* افرادی که JavaScript را تازه شروع کرده‌اند
+* افرادی که می‌خواهند Node.js یاد بگیرند
+* برنامه‌نویسان JavaScript که می‌خواهند وارد Backend شوند
+* افرادی که می‌خواهند REST API بسازند
+* افرادی که می‌خواهند با Database کار کنند
+* افرادی که قصد ساخت پروژه واقعی دارند
+* افرادی که برای ورود به بازار کار Backend آماده می‌شوند
+
+است.
+
+---
+
+## فلسفه آموزشی این پروژه
+
+در این مستند تلاش می‌شود هر مفهوم با ترکیبی از موارد زیر آموزش داده شود:
+
+1. توضیح ساده مفهوم
+2. مثال
+3. کد
+4. بررسی نتیجه
+5. نکات مهم
+6. اشتباهات رایج
+7. نکات حرفه‌ای
+8. تمرین
+9. پاسخ تشریحی
+10. پروژه کوچک
+
+به این ترتیب یادگیری فقط به خواندن محدود نمی‌شود و خواننده دائماً با کدنویسی و حل مسئله درگیر خواهد بود.
+
+---
+
+## این پروژه یک مستند زنده است
+
+Node.js، JavaScript و اکوسیستم Backend دائماً در حال تغییر هستند.
+
+به همین دلیل این Repository قرار نیست یک کتاب ثابت باشد؛ بلکه می‌تواند به مرور زمان:
+
+* تکمیل شود
+* اصلاح شود
+* فصل‌های جدید دریافت کند
+* تمرین‌های بیشتری به آن اضافه شود
+* پروژه‌های جدید دریافت کند
+* منابع جدید به آن اضافه شود
+* مثال‌ها به‌روزرسانی شوند
+
+و با تغییر اکوسیستم Node.js توسعه پیدا کند.
+
+---
+
+## پیشنهاد برای استفاده از مستند
+
+بهتر است مطالب را به ترتیب مطالعه کنید و از فصل‌ها عبور نکنید؛ مخصوصاً اگر از سطح صفر شروع می‌کنید.
+
+برای هر موضوع:
+
+```text
+مطالعه
+   ↓
+کدنویسی
+   ↓
+تمرین
+   ↓
+بررسی پاسخ
+   ↓
+ساخت پروژه
+   ↓
+مرور
+```
+
+را انجام دهید.
+
+هدف این دوره صرفاً تمام کردن صفحات مستند نیست؛ هدف این است که در پایان بتوانید **خودتان یک پروژه واقعی Node.js را طراحی، پیاده‌سازی، تست، امن، بهینه و Deploy کنید.**
+
+---
+
+## مشارکت در توسعه مستند
+
+اگر در این پروژه:
+
+* خطایی پیدا کردید
+* مثال بهتری داشتید
+* موضوعی از قلم افتاده بود
+* پیشنهادی برای بهبود آموزش داشتید
+* تمرین جدیدی پیشنهاد کردید
+* پروژه‌ای برای اضافه شدن پیشنهاد کردید
+
+می‌توانید آن را از طریق GitHub مطرح کنید.
+
+[مخزن GitHub پروژه](https://github.com/Sobhan-SRZA/learn-js-and-node)
+
+---
+
+## سخن پایانی
+
+این مستند با هدف ساختن یک مسیر منظم و جامع برای یادگیری JavaScript و Node.js ایجاد شده است؛ مسیری که از اولین مفاهیم برنامه‌نویسی شروع می‌شود و در نهایت به ساخت نرم‌افزارهای Backend واقعی و آمادگی برای ورود به بازار کار می‌رسد.
+
+امیدواریم این Repository برای شما فقط یک مجموعه مقاله نباشد، بلکه تبدیل به یک **مسیر یادگیری، تمرین و ساخت پروژه** شود.
