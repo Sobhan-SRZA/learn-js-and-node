@@ -715,7 +715,7 @@
 
 ---
 
-## فصل 110 - Encryption
+## [فصل 110 - Encryption](./part%2014/14.3.md)
 
 ---
 
