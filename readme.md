@@ -751,7 +751,7 @@
 
 ---
 
-# بخش ۱۵ - Performance
+# [بخش ۱۵ - Performance](./part%2015/)
 
 ## [فصل 119 - Performance Optimization](./part%2015/15.1.md)
 
