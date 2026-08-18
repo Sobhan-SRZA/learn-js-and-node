@@ -765,7 +765,7 @@
 
 ---
 
-## فصل 122 - Compression
+## [فصل 122 - Compression](./part%2015/15.4.md)
 
 ---
 
