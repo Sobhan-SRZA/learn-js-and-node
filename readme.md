@@ -773,7 +773,7 @@
 
 ---
 
-## فصل 124 - Load Balancing
+## [فصل 124 - Load Balancing](./part%2015/15.6.md)
 
 ---
 
